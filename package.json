@@ -1,0 +1,22 @@
+{
+    "publisher": "georgemesseha",
+    "name": "gquiita",
+    "displayName": "GQiita",
+    "description": "The Great Qiita Theme Modified",
+    "version": "0.0.6",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GQiita",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GQiita-color-theme.json"
+            }
+        ]
+    }
+}
