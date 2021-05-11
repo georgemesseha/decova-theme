@@ -1,9 +1,9 @@
 {
     "publisher": "georgemesseha",
-    "name": "gquiita",
-    "displayName": "GQiita",
-    "description": "The Great Qiita Theme Modified",
-    "version": "0.0.6",
+    "name": "decova-theme",
+    "displayName": "Decova Theme",
+    "description": "Thanks to Qiita Theme. It's the base of this theme.",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.43.0"
     },
@@ -13,9 +13,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "GQiita",
+                "label": "Decova Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/GQiita-color-theme.json"
+                "path": "./themes/decova-color-theme.json"
             }
         ]
     }

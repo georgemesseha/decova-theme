@@ -531,6 +531,69 @@
 			"settings": {
 				"foreground": "#B267E6"
 			}
+		},
+		{
+			"scope": [
+				"meta.template.expression",
+			],
+			"settings": {
+				"foreground": "#eef77a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+			],
+			"settings": {
+				"foreground": "#8f8f8f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.template-expression.end",
+			],
+			"settings": {
+				"foreground": "#8f8f8f",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": 
+				[ 
+					"source meta.class meta.decorator punctuation.decorator",
+					"source meta.class meta.decorator variable.other.readwrite",
+					"source meta.class meta.decorator meta.function-call entity.name.function",
+				],
+
+			"settings": {
+				"foreground": "#D56AFF",
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"scope": 
+				[ 
+					"source meta.class meta.decorator meta.objectliteral meta.object.member entity.name.function",
+				],
+
+			"settings": {
+				"foreground": "#8BDF4C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": 
+				[ 
+					"source meta.class meta.decorator meta.objectliteral meta.object.member meta.object-literal.key",
+				],
+
+			"settings": {
+				"foreground": "#f58930",
+				"fontStyle": "bold"
+			}
 		}
+		
 	]
 }
